@@ -1,0 +1,95 @@
+html {
+	font-family: arial, helvetica, sans-serif;
+	background-color: #eef2ff;
+	padding-top: 0; padding-bottom: 0; padding-left: 15%; padding-right: 15%;;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+.top {margin-top: 12px; height: 24px; line-height: 24px; margin-bottom: 15px; min-width: 900px;}
+.top_left {display: inline-block;float: left; text-align: left;}
+.top_right {display: inline-block; float: right;}
+.flags {display: inline-block; margin: 0; padding: 0;}
+.top_title {display: inline-block; position: absolute; vertical-align: middle; margin-left: 10px;}
+
+.header {
+	height: 250px;
+	min-width: 900px;
+	background-color: #222A79;
+	border-top: 3px solid yellow;
+	text-align: center;
+}
+
+.a_logo {
+	width: 100%;
+	height: 30px;
+	background-image: url("./../img/adidas.png");
+	background-position: center;
+	background-size: contain;
+	background-color: white;
+	margin-bottom: 15px;
+	min-width: 900px;
+}
+
+.logo_space {padding-top: 20px;}
+.title {color: yellow; font-weight: 600; font-size: 70px; position: relative; top: 18px;}
+.titlenum {color: yellow; font-weight: 600; font-size: 35px; position: relative;}
+.titleblock {display: inline-block;}
+.logo {padding-left: 20px; padding-right: 20px; position: relative; z-index: 9000; top: 40px;}
+
+.menu {
+	margin: 20px;
+}
+
+.menulist {list-style: none;}
+
+.menulist li {
+	display: inline-block; 
+	float: none; 
+	width: 130px; 
+	background-color: yellow;
+	padding: 9px;
+	border-radius: 2px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.menu_item {text-decoration: none;}
+
+.menulist li:hover {opacity: 0.9;}
+.main {position: relative;}
+
+.block {
+	margin-top: 15px; margin-bottom: 15px; 
+	min-width: 900px; 
+	background-color: white;
+	border-radius: 3px;
+}
+
+.footer {
+	border-top: 3px solid yellow;
+	min-width: 900px;
+	position: relative;
+    bottom: 0;
+	height: 250px;
+	width: 100%;
+	background-color: #41424E;
+	text-align: center;
+}
+
+.sponsors {margin-top: 25px; margin-bottom: 15px;}
+.sponsor {filter: grayscale(100%); -webkit-filter: grayscale(100%); margin: 10px;}
+.sponsor:hover {filter: grayscale(0%); -webkit-filter: grayscale(0%);}
+
+.copyright {
+	background-color: #2A2A30; color: #eef2ff; 
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.madeby {font-size: 12px;}
