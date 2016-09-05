@@ -16,7 +16,7 @@ html {
 .top_title {display: inline-block; position: absolute; vertical-align: middle; margin-left: 10px;}
 
 .header {
-	height: 250px;
+	height: 300px;
 	min-width: 900px;
 	background-color: #222A79;
 	border-top: 3px solid yellow;
@@ -34,7 +34,7 @@ html {
 	min-width: 900px;
 }
 
-.logo_space {padding-top: 20px;}
+.logo_space {padding-top: 35px;}
 .title {color: yellow; font-weight: 600; font-size: 70px; position: relative; top: 18px;}
 .titlenum {color: yellow; font-weight: 600; font-size: 35px; position: relative;}
 .titleblock {display: inline-block;}
